@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login-sign-styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>NextGen Gaming</title>
+</head>
+<body>
+    <!--Header-->
+  <header>
+    <div class="root" id="header">
+        <div class="logo">
+            <a href="/html/home1.html"><img src="/img/logo.png" alt="Logo"></a>
+        </div>
+        <div>
+            <nav class="nav ">  
+                <div class="search-bar">
+                    <form action="">
+                        <input type="text" placeholder="Buscar...">
+                        <ion-icon name="search" class="search-icon"></ion-icon>
+                    </form>
+                </div>
+                <ul class="nav">
+                    <li><a href="">Productos</a></li>
+                    <li><a href="">Combos</a></li>
+                    <li><a href="">Acerca de nosotros</a></li>
+                    <li><a href="">Contactanos</a></li>
+                </ul>  
+                <a href="/html/login.html" class="user-icon-link"><ion-icon name="person-circle-outline" class="user-icon"></ion-icon></a>
+            </nav>
+        </div>
+    </div>
+</header>
+<!--End header-->
+    <section>
+        <form id="loginForm">
+            <label>Correo</label>
+            <input type="email" placeholder="correo" id="email" required autofocus>
+            <label>Contraseña</label>
+            <input type="password" placeholder="contraseña" id="password" required>
+            <input type="submit" value="Ingresar">
+        </form>
+        <p>No tienes una cuenta? <a href="signup.html">Registro</a></p>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Punto de Venta:</h4>
+                <p>C.C Unilago: Locales 2-275 2-274 2do piso</p>
+                <p>Teléfonos: (601) 2015011 - (601) 201 5012</p>
+                <p>Email: <a href="mailto:ventas@nextgengaming.com">ventas@nextgengaming.com</a></p>
+                <p>Whatsapp: <a href="https://wa.me/573214718344" target="_blank">3214718344</a></p>
+            </div>
+            <div class="footer-column">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#" class="social-icon"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#" class="social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#" class="social-icon"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    <a href="#" class="social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="#" class="social-icon"><ion-icon name="mail-outline"></ion-icon></a>
+                    <a href="#" class="social-icon"><ion-icon name="logo-youtube"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p><a href="#">Términos y condiciones</a> | <a href="#">Política de privacidad</a> | © 2024 NextGenGaming Todos los Derechos Reservados | <a href="#">Política de Cookies</a></p>
+        </div>
+    </footer>
+    <!--Script for icons-->
+    <script src="/JavasScript/home.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="login.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
